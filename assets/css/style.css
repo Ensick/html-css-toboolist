@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    margin-bottom: 3%;
+}
+
+.logo{
+    height: 10vh;
+    background-color: white;
+}
+
+.logo > img, span{
+    vertical-align: middle;
+    font-size: 4.0rem;
+    font-weight: bold;
+}
+
+.logo > img{
+    width: 4%;
+    padding-top: 15px;
+}
+
+.contenitore{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
