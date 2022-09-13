@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&family=Noto+Sans:wght@400;500;600;700&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body{
     background-color: #F6F8F9;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 header{
@@ -15,9 +19,11 @@ header{
 .logo{
     height: 10vh;
     background-color: white;
+    padding-left: 3%;
+
 }
 
-.logo > img, span{
+.logo > img, .titolo{
     vertical-align: middle;
     font-size: 4.0rem;
     font-weight: bold;
@@ -31,7 +37,7 @@ header{
 nav, main{
     background-color: white;
     width: 70%;
-    margin: auto;
+    margin: 5px auto;
 }
 
 nav{
@@ -61,4 +67,84 @@ nav{
     color: lightgray;
     border: 1px solid lightgray;
 }
+
+main{
+    padding: 2% 0 0 3%;
+    height: 73vh;
+    border-radius: 10px;
+}
+
+h2::before{
+    content: "\25be";
+}
+
+.contenitore{
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+}
+
+.contenitore >span{
+ vertical-align: middle;
+}
+
+.checkbox{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px 8px;
+    border: 1px solid green;
+    color: green;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.cross{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px 8px;
+    border: 1px solid red;
+    color: red;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.info{
+    color: white;
+    display: inline-block;
+    width: 4vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #47ADF1;
+    vertical-align: middle;
+    font-size: 1.0rem;
+}
+
+
+li{
+    margin: 1.5%;
+}
+
+.goals{
+    background-color:#9c72e4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color:#D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
+}
+
+
 
